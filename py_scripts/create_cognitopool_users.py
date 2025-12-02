@@ -1,8 +1,8 @@
-import boto3
+import boto3 # pyright: ignore[reportMissingImports]
 
 cognito = boto3.client('cognito-idp', region_name='us-east-1')
-
-USER_POOL_ID = 'us-east-1_DRBfrBbTg'
+        
+USER_POOL_ID = "us-east-1_XfP9rghhF"
 
 students = [
     {"name": "Alice Johnson", "email": "alice.johnson@school.edu", "student_id": "S1001"},
